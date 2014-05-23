@@ -41,7 +41,9 @@
 		$(this).bind('click', function(e){
 			e.preventDefault();
 			
-			$(".navbar-collapse").collapse('hide');
+			//console.log($(".navbar-collapse").collapse());
+			
+			//$(".navbar-collapse").collapse('hide');
 			
 			scrollTo($(this).attr('href'));
 		});
@@ -75,9 +77,6 @@
 	}
 	
 	function scrollTo(target) {
-		
-		console.log(target);
-		
 		var scrollTop = $(target).offset().top;
 		
 		$('html, body').animate({ scrollTop: scrollTop }, 500);
