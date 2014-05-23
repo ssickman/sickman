@@ -1,0 +1,28 @@
+body{
+	margin:0;
+	color:black;
+	background:white;
+	border:none;
+	height:auto;
+}
+
+#page{
+	height:auto;
+}
+
+.col1{
+	left:0;
+}
+
+.col2{
+	right:0;
+}
+
+
+#download-bar{
+	display:none;
+}
+
+.email a{
+	color:black;
+}

@@ -1,0 +1,151 @@
+body{
+	background:#B3BCBF;
+	/* font-size:.125in; */
+	font-size:12px;
+	width:8.5in;
+	height:11in;
+	margin:1in auto;
+	border:1px solid;
+	font-family:arial;
+	color:#444;
+	
+}
+
+#page{
+	background:white;
+	/* padding:.25in; */
+	height:11in;
+	position:relative;
+}
+
+#download-bar{
+	position:fixed;
+	top:0;
+	left:0;
+	width:300px;
+	margin:0 auto;
+	height:50px;
+	background:#333;
+	color:white;
+	z-index:200;
+	-moz-border-radius-bottomright:5px;
+}
+
+#download-bar a{
+	line-height:50px;
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	position:absolute;
+	font-size:16px;
+	outline:0;
+}
+
+#download-bar a:hover{
+	color:lightBlue;
+	font-style:italic;
+}
+
+#download-bar a.print{ left:50px; }
+#download-bar a.pdf{ right:50px; }
+
+h1.header, h2.header, h3.header{
+	font-weight:lighter;
+}
+
+.header{
+	top:.25in;
+	font-family: arial;
+	margin:0;
+}
+
+h1.header{
+	letter-spacing:.026in;
+	border-bottom:1px solid;
+}
+
+.address{
+	position:absolute;
+	top:.85in;
+}
+
+.email{
+	top:.84in;
+} .email a{ color:#0066cc; text-decoration:none; }
+
+.email a:hover{
+	text-decoration:underline;
+}
+
+.phone{
+	top:.3in;
+}
+
+.col1, .col2{
+	width:3.75in;
+	position:absolute;
+}
+
+.col1{
+	left:.25in;
+}
+
+.col2{
+	right:.25in;
+}
+
+.row1{
+	top:1.8in;
+}
+
+.row2{
+	top:3.0in;
+}
+
+.row3{
+	top:6.5in;
+}
+
+.hide{
+	display:none;
+}
+
+#page h3{
+	letter-spacing:1px;
+	text-transform:uppercase;
+/* 	padding-left:.125in; */
+	border-bottom:1px solid;
+
+
+}
+
+.skills{
+	line-height:.17in;
+}
+
+.job{
+	margin-bottom:.25in;
+}
+
+.job ul, .list-heading-align{
+	padding-left:.15in;
+	list-style:outside circle;
+	margin-top:0in;
+}
+
+.job ul li{
+	float:none;
+}
+
+.date, .company{
+	width:2in;
+	display:inline;
+}
+
+.date{
+	font-weight:lighter;
+	font-style:italic;
+}
+.company{
+
+}
