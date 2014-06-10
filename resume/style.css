@@ -1,13 +1,14 @@
 body{
 	background:#B3BCBF;
 	/* font-size:.125in; */
-	font-size:12px;
+	font-size:13px;
 	width:8.5in;
 	height:11in;
 	margin:1in auto;
 	border:1px solid;
-	font-family:arial;
+	font-family: Helvetica,Arial,sans-serif;
 	color:#444;
+	line-height: 145%;
 	
 }
 

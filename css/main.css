@@ -26,7 +26,10 @@ section:nth-child(odd) {
     color: #49A5BF;
 	text-align: center;
 } .navbar-nav > li > a:hover{
-
+	
+} .navbar-nav > li > a:focus{
+	outline: 0;
+	border: 0;
 }
 
 .navbar-toggle{
