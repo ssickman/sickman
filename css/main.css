@@ -1,5 +1,5 @@
 body{
-	background: #f9f9f9;
+	background: #ddd;
 	font-family: "Exo 2","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
@@ -12,7 +12,7 @@ section > .container{
 	padding-bottom: 50px;
 }
 section:nth-child(odd) {
-	background: #ddd;
+	background: #f9f9f9;
 }
 
 .navbar{
@@ -65,7 +65,8 @@ border-bottom: 1px solid #93cede;
 }
 
 .nav-margin-adjust{
-	padding-top: 120px;
+	padding-top: 150px;
+	padding-bottom: 70px;
 }
 
 .jumbotron{
